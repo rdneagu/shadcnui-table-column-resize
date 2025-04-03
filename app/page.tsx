@@ -117,8 +117,6 @@ export default function Home() {
   );
 }
 
-// TODO last performance update would be to put custom components into memo.
-
 function DataTable() {
   const [rowSelection, setRowSelection] = useState({});
   const [sorting, setSorting] = useState<SortingState>([]);
